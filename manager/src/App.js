@@ -22,12 +22,7 @@ class App extends Component {
     render() {
         return (
             <Provider store={createStore(reducers)}>
-                <View>
-                    <Text>
-                        Hello!
-                    </Text>
-                    <LoginForm />
-                </View>
+                <LoginForm />
             </Provider>
         )
     }
